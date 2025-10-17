@@ -27,6 +27,21 @@ import {
 import { MdOutlineLightMode, MdDarkMode } from "react-icons/md";
 import { motion } from "framer-motion";
 import ContactForm from "/Users/rand/my-portfolio/ContactForm.jsx";
+import epodash2 from './images/epodash2.png';
+import epodash3 from './images/epodash3.png';
+import epodash4 from './images/epodash4.png';
+import epodash5 from './images/epodash5.png';
+
+import opti1 from './images/OptiRoute1.png';
+import opti2 from './images/OptiRoute2.png';
+import opti3 from './images/OptiRoute3.png';
+import opti4 from './images/OptiRoute4.png';
+import opti5 from './images/OptiRoute5.png';
+import opti6 from './images/OptiRoute6.png';
+
+import art1 from './images/art1.png';
+import art2 from './images/art2.png';
+import art3 from './images/art3.png';
 
 // Smooth scroll
 const scrollToSection = (id) => {
@@ -36,33 +51,24 @@ const scrollToSection = (id) => {
 const projects = [
   {
     title: "EXPODASH",
-    images: ["/images/epodash2.png", "/images/epodash3.png", "/images/epodash4.png", "/images/epodash5.png"],
-    description:
-      "EXPODASH is a smart mobile app designed for Expo 2030, using AI facial recognition, IoT, and cloud technologies to streamline booth access, manage virtual queues, track occupancy, and provide personalized navigation and recommendations — creating a seamless and intelligent visitor experience.",
+    images: [epodash2, epodash3, epodash4, epodash5],
+    description: "EXPODASH is a smart mobile app designed for Expo 2030, using AI facial recognition, IoT, and cloud technologies to streamline booth access, manage virtual queues, track occupancy, and provide personalized navigation and recommendations — creating a seamless and intelligent visitor experience.",
     github: "https://github.com/randJehad21/GP",
   },
   {
     title: "OptiRoute",
-    images: [
-      "/images/OptiRoute1.png",
-      "/images/OptiRoute2.png",
-      "/images/OptiRoute3.png",
-      "/images/OptiRoute4.png",
-      "/images/OptiRoute5.png",
-      "/images/OptiRoute6.png",
-    ],
-    description:
-      "OptiRoute is a route optimization and visualization application built with Streamlit, Folium, and OR-Tools. It allows users to input multiple locations and generates optimized routes, displaying them on interactive maps while minimizing travel time/distance.",
+    images: [opti1, opti2, opti3, opti4, opti5, opti6],
+    description: "OptiRoute is a route optimization and visualization application built with Streamlit, Folium, and OR-Tools. It allows users to input multiple locations and generates optimized routes, displaying them on interactive maps while minimizing travel time/distance.",
     github: "https://github.com/randJehad21/OptiRoute",
   },
   {
     title: "ArtSupply – E-Commerce Website for Art Supplies",
-    images: ["/images/art1.png", "/images/art2.png", "/images/art3.png"],
-    description:
-      "ArtSupply is a full-featured e-commerce website designed to sell art tools and supplies online. Built using PHP, HTML, and CSS, with a MySQL database managed via PhpMyAdmin, the platform allows users to browse products, add items to their cart, and place orders seamlessly. The project demonstrates database-driven web development, dynamic product listings, and responsive design for an intuitive shopping experience.",
+    images: [art1, art2, art3],
+    description: "ArtSupply is a full-featured e-commerce website designed to sell art tools and supplies online. Built using PHP, HTML, and CSS, with a MySQL database managed via PhpMyAdmin, the platform allows users to browse products, add items to their cart, and place orders seamlessly. The project demonstrates database-driven web development, dynamic product listings, and responsive design for an intuitive shopping experience.",
     github: "https://github.com/randJehad21/ArtSupply-Ecommerce-Website",
   },
 ];
+
 
 const skills = [
   { name: "Project Management", icon: FaMicrosoft },
